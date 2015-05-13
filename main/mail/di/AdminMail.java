@@ -7,4 +7,7 @@ public class AdminMail extends CommonMail {
     public AdminMail() {
         super(new Standard());
     }
+    public int execute() {
+        return execute_check(new Standard());
+    }
 }
