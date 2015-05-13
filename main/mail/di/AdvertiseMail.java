@@ -7,4 +7,7 @@ public class AdvertiseMail extends CommonMail{
     public AdvertiseMail() {
         super(new OISAsp());
     }
+    public int execute() {
+        return execute_check(new OISAsp());
+    }    
 }
