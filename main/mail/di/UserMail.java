@@ -7,4 +7,7 @@ public class UserMail extends CommonMail {
     public UserMail() {
         super(new Html());
     }
+    public int execute() {
+        return execute_check(new Html());
+    }
 }
