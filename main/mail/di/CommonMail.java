@@ -13,7 +13,7 @@ public class CommonMail {
     // test code.
     public static final int SUCCESS_VALUE = 1;
     public static final int FAIL_VALUE = 0;
-    public int execute_check(Mail mail) {
+    protected int execute_check(Mail mail) {
         try {
             execute(mail);
         } catch (Exception e) {
